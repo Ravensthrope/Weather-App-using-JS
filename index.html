@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Today's Weather</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" name="Search" id="search" placeholder="Search location">
+            <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="bottom">
+            <div class="loc-detail">
+                <h3 id="country">Paris</h3>
+                <div class="degree-section">
+                    <h2 id="temp">38</h2>
+                    <span class="deg">°C</span>
+                </div>
+                <h4 id="weather">Snow</h4>
+            </div>
+            <div class="card">
+                <div class="card-humidity border">
+                    <h4>Humidity</h4>
+                    <span id="humidity">34%</span>
+                </div>
+                <div class="card-wind-speed border">
+                    <h4>Wind Speed</h4>
+                    <span id="wind-speed">6 <span>km/h</span></span>
+                </div>
+                <div class="card-precipitation border">
+                    <h4>Precipitation</h4>
+                    <span id="precipitation">74%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/037e9b8ef2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
